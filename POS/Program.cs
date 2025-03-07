@@ -13,6 +13,7 @@ namespace POS
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting POS application..."); //Testing for PR
             // Create a Host to manage services
             var host = CreateHostBuilder(args).Build();
 

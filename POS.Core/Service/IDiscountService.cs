@@ -1,5 +1,5 @@
 ﻿using POS.Core.Dtos.DiscountDTOs;
-using POS.Core.Models;
+using POS.Core.Dtos;
 
 namespace POS.Core.Service
 {

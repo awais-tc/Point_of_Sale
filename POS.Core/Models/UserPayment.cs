@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Models
+namespace POS.Core.Dtos
 {
     public class UserPayment
     {

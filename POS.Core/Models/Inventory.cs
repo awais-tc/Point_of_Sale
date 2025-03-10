@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace POS.Core.Models
+namespace POS.Core.Dtos
 {
     public class Inventory
     {

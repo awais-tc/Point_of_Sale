@@ -1,4 +1,4 @@
-﻿using POS.Core.Models.InventoryDTOs;
+﻿using POS.Core.Dtos.InventoryDTOs;
 namespace POS.Core.Service
 {
     public interface IInventoryService

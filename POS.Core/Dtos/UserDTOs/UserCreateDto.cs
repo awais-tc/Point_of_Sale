@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Models.UserDTOs
+namespace POS.Core.Dtos.UserDTOs
 {
     public class UserCreateDto
     {

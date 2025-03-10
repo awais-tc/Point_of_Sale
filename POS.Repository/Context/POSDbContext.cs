@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using POS.Core.Models;
+using POS.Core.Dtos;
 using System.Data;
 
 

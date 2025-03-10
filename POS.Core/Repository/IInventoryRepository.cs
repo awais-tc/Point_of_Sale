@@ -1,4 +1,4 @@
-﻿using POS.Core.Models;
+﻿using POS.Core.Dtos;
 
 namespace POS.Core.Repository
 {

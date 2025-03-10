@@ -1,4 +1,4 @@
-﻿using POS.Core.Models.RoleDTOs;
+﻿using POS.Core.Dtos.RoleDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

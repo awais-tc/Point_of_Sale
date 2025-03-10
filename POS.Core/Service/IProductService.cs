@@ -1,4 +1,4 @@
-﻿using POS.Core.Models.ProductDTOs;
+﻿using POS.Core.Dtos.ProductDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace POS.Core.Service
 {
     public interface IProductService
     {
-        Task AddProductAsync(ProductCreateDto productCreateDto);
+        Task AddProductAsync(ProductCreateDto productCreateDto, CancellationToken cancellationToken);
         Task UpdateProductAsync(ProductUpdateDto productUpdateDto);
         Task<ProductDto> GetProductAsync(int productId);
         Task<List<ProductDto>> GetAllProductsAsync();

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using POS.Core.Models.TaxDTOs;
-using POS.Core.Models;
+using POS.Core.Dtos.TaxDTOs;
+using POS.Core.Dtos;
 using POS.Core.Repository;
 using POS.Core.Service;
 using Microsoft.EntityFrameworkCore;

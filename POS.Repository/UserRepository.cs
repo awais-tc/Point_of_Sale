@@ -1,4 +1,4 @@
-﻿using POS.Core.Models;
+﻿using POS.Core.Dtos;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;

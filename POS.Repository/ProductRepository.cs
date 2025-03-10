@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using POS.Core.Models;
+using POS.Core.Dtos;
 using POS.Core.Repository;
 using POS.Repository.Context;
 
@@ -14,7 +14,7 @@ namespace POS.Repository
             _context = context;
         }
 
-        public async Task AddProductAsync(Product product)
+        public async Task AddProductAsync(Product product, CancellationToken cancellationToken = default)
         {
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();

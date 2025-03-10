@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Models.InventoryDTOs
+namespace POS.Core.Dtos.InventoryDTOs
 {
     public class InventoryUpdateDto
     {

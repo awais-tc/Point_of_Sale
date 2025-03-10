@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using POS.Core.Models.ProductDTOs;
-using POS.Core.Models;
+using POS.Core.Dtos.ProductDTOs;
+using POS.Core.Dtos;
 using POS.Core.Repository;
 using POS.Core.Service;
 
@@ -17,7 +17,7 @@ namespace POS.Service
             _mapper = mapper;
         }
 
-        public async Task AddProductAsync(ProductCreateDto productCreateDto)
+        public async Task AddProductAsync(ProductCreateDto productCreateDto, CancellationToken cancellationToken)
         {
             if (productCreateDto == null)
                 throw new ArgumentNullException(nameof(productCreateDto));

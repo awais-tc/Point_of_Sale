@@ -1,4 +1,4 @@
-﻿using POS.Core.Models;
+﻿using POS.Core.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

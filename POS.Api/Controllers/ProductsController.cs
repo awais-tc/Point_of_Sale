@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using POS.Core.Models.ProductDTOs;
+using POS.Core.Dtos.ProductDTOs;
 using POS.Core.Service;
 
 namespace POS.Api.Controllers
@@ -49,7 +49,7 @@ namespace POS.Api.Controllers
                 return BadRequest("Product data is required.");
             }
 
-            await _productService.AddProductAsync(productCreateDto);
+            await _productService.AddProductAsync(productCreateDto, cancellationToken:default);
             return CreatedAtAction(nameof(AddProduct), new { message = "Product added successfully" });
         }
 

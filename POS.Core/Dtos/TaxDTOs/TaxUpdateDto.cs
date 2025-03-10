@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Models.TaxDTOs
+namespace POS.Core.Dtos.TaxDTOs
 {
     public class TaxUpdateDto
     {

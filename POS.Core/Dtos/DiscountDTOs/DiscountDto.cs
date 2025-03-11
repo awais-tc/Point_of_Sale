@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Dtos.DiscountDTOs
+namespace POS.Core.Models.DiscountDTOs
 {
     public class DiscountDto
     {

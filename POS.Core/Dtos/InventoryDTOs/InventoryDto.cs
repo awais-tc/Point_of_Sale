@@ -1,6 +1,6 @@
 ﻿
 
-namespace POS.Core.Dtos.InventoryDTOs
+namespace POS.Core.Models.InventoryDTOs
 {
     public class InventoryDto
     {

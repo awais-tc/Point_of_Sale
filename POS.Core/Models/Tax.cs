@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace POS.Core.Dtos
+namespace POS.Core.Models
 {
     public class Tax
     {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace POS.Core.Dtos.BarcodeDTOs
+namespace POS.Core.Models.BarcodeDTOs
 {
     public class BarcodeDto
     {

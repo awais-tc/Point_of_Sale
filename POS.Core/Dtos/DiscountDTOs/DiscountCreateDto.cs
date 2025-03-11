@@ -1,6 +1,6 @@
 ﻿
 
-namespace POS.Core.Dtos.DiscountDTOs
+namespace POS.Core.Models.DiscountDTOs
 {
     public class DiscountCreateDto
     {

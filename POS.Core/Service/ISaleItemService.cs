@@ -1,4 +1,4 @@
-﻿using POS.Core.Dtos.SaleItemDTOs;
+﻿using POS.Core.Models.SaleItemDTOs;
 
 namespace POS.Core.Service
 {

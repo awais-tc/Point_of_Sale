@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using POS.Core.Dtos.ReceiptDTOs;
-using POS.Core.Dtos.SaleDTOs;
-using POS.Core.Dtos;
+using POS.Core.Models.ReceiptDTOs;
+using POS.Core.Models.SaleDTOs;
+using POS.Core.Models;
 using POS.Core.Repository;
 using POS.Core.Service;
 using System.Text;

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using POS.Api.Controllers;
-using POS.Core.Dtos.ProductDTOs;
+using POS.Core.Models.ProductDTOs;
 using POS.Core.Service;
 using FluentAssertions;
 
@@ -98,7 +98,6 @@ public class ProductControllerTests
 
         _productServiceMock.Verify(s => s.GetProductAsync(productId), Times.Once);
     }
-
 
 
     [Test]

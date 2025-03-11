@@ -1,6 +1,6 @@
 ﻿
 
-namespace POS.Core.Dtos.TaxDTOs
+namespace POS.Core.Models.TaxDTOs
 {
     public class TaxCreateDto
     {

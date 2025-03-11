@@ -1,4 +1,4 @@
-﻿using POS.Core.Dtos.BarcodeDTOs;
+﻿using POS.Core.Models.BarcodeDTOs;
 
 namespace POS.Core.Service
 {

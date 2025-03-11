@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
-using POS.Core.Dtos.InventoryDTOs;
-using POS.Core.Dtos.RoleDTOs;
-using POS.Core.Dtos.TaxDTOs;
-using POS.Core.Dtos.UserDTOs;
-using POS.Core.Dtos;
-using POS.Core.Dtos.ProductDTOs;
-using POS.Core.Dtos.BarcodeDTOs;
-using POS.Core.Dtos.DiscountDTOs;
-using POS.Core.Dtos.SaleItemDTOs;
-using POS.Core.Dtos.SaleDTOs;
+using POS.Core.Models.InventoryDTOs;
+using POS.Core.Models.RoleDTOs;
+using POS.Core.Models.TaxDTOs;
+using POS.Core.Models.UserDTOs;
+using POS.Core.Models;
+using POS.Core.Models.ProductDTOs;
+using POS.Core.Models.BarcodeDTOs;
+using POS.Core.Models.DiscountDTOs;
+using POS.Core.Models.SaleItemDTOs;
+using POS.Core.Models.SaleDTOs;
 
 namespace POS.Core.AutoMapper
 {

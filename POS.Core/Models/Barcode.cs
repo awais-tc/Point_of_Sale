@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace POS.Core.Dtos
+namespace POS.Core.Models
 {
     public class Barcode
     {

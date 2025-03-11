@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Dtos.PaymentDTOs
+namespace POS.Core.Models.PaymentDTOs
 {
     public class PaymentDto
     {

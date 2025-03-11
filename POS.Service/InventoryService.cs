@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using POS.Core.Dtos.InventoryDTOs;
-using POS.Core.Dtos;
+using POS.Core.Models.InventoryDTOs;
+using POS.Core.Models;
 using POS.Core.Repository;
 using POS.Core.Service;
 

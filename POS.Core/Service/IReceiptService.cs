@@ -1,5 +1,5 @@
-﻿using POS.Core.Dtos.ReceiptDTOs;
-using POS.Core.Dtos.SaleDTOs;
+﻿using POS.Core.Models.ReceiptDTOs;
+using POS.Core.Models.SaleDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Dtos.ProductDTOs
+namespace POS.Core.Models.ProductDTOs
 {
     public class ProductUpdateDto
     {

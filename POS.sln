@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.ServiceTests", "POS.Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.ApiTests", "POS.ApiTests\POS.ApiTests.csproj", "{29B7677D-8E31-4012-B603-A36566D02196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Service.XUnitTests", "POS.Service.XUnitTests\POS.Service.XUnitTests.csproj", "{15920B31-D643-440B-B647-D7EA43132E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Api.xUnitTests", "POS.Api.xUnitTests\POS.Api.xUnitTests.csproj", "{1885C12A-AE66-457C-9C1A-A963395C5C4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{29B7677D-8E31-4012-B603-A36566D02196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B7677D-8E31-4012-B603-A36566D02196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B7677D-8E31-4012-B603-A36566D02196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15920B31-D643-440B-B647-D7EA43132E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15920B31-D643-440B-B647-D7EA43132E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15920B31-D643-440B-B647-D7EA43132E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15920B31-D643-440B-B647-D7EA43132E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1885C12A-AE66-457C-9C1A-A963395C5C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1885C12A-AE66-457C-9C1A-A963395C5C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1885C12A-AE66-457C-9C1A-A963395C5C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1885C12A-AE66-457C-9C1A-A963395C5C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

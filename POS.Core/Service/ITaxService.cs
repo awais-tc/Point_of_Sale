@@ -1,5 +1,5 @@
-﻿using POS.Core.Dtos;
-using POS.Core.Dtos.TaxDTOs;
+﻿using POS.Core.Models;
+using POS.Core.Models.TaxDTOs;
 
 namespace POS.Core.Service
 {

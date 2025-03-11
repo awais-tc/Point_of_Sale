@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using POS.Core.Dtos.DiscountDTOs;
-using POS.Core.Dtos;
+using POS.Core.Models.DiscountDTOs;
+using POS.Core.Models;
 using POS.Core.Repository;
 using POS.Core.Service;
 using System;

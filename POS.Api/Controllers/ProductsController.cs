@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using POS.Core.Dtos.ProductDTOs;
+using POS.Core.Models.ProductDTOs;
 using POS.Core.Service;
 
 namespace POS.Api.Controllers

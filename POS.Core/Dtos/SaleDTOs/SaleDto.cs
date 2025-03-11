@@ -1,11 +1,11 @@
-﻿using POS.Core.Dtos.SaleItemDTOs;
+﻿using POS.Core.Models.SaleItemDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Core.Dtos.SaleDTOs
+namespace POS.Core.Models.SaleDTOs
 {
     public class SaleDto
     {

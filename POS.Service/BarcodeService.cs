@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using POS.Core.Dtos.BarcodeDTOs;
-using POS.Core.Dtos;
+using POS.Core.Models.BarcodeDTOs;
+using POS.Core.Models;
 using POS.Core.Repository;
 using POS.Core.Service;
 

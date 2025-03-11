@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using POS.Core.Dtos;
+using POS.Core.Models;
 using POS.Core.Repository;
 using POS.Repository.Context;
 using System;
